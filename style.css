@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pirata+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.antique {
+  color: antiquewhite;
+}
+body {
+  background-image: url("/media/bg/mick.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#main {
+  min-height: 100vh;
+}
+main * {
+  color: antiquewhite;
+}
+.overlay {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@font-face {
+  font-family: "logo";
+  src: url(/fonts/dragonlord.otf);
+}
+.logo {
+  font-family: "logo";
+  font-size: 4rem;
+}
+.hero-main h1 {
+  font-family: "Pirata One";
+  font-size: 4.5rem;
+}
+.hero-main h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+.cta {
+  background: transparent;
+  border: 1px solid antiquewhite;
+  font-family: "Montserrat";
+  transition: 500ms;
+}
+.cta:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+#products {
+  min-height: 100vh;
+}
+.products-title {
+  font-family: "Montserrat";
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 2rem 0;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.card-img-top {
+  width: 70%;
+}
+.card-title {
+  color: bisque;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem 0;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  font-family: "Montserrat";
+}
